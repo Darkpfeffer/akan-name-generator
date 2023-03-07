@@ -13,11 +13,12 @@ submitButton.addEventListener('click', (event) => {
         let inputDate= document.querySelector('.input-date');
         let dt= new Date(calendar.value);
 
-        let dayName= ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        let dayName= ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
         let i= dt.getDay();
 
-        
-        paragraph.innerText= dayName[i];
+        paragraph.classList.add(dayName[i])
+
+        let dayAnd
     } else {
     }
 })
