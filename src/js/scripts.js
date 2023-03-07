@@ -8,42 +8,37 @@ let personSex= document.querySelector('#sex');
 submitButton.addEventListener('click', (event) => {
     event.preventDefault();
     let paragraph= document.createElement('p');
-    paragraph.classList.add('input-date');
-    if (!document.querySelector('.input-date')) {
+    if (!appending.firstElementChild) {
         appending.appendChild(paragraph);
         submitButton.click();
         
     } else {
-        appending.firstElementChild.className='';
-        appending.firstElementChild.classList.add('input-date')
-        let inputDate= document.querySelector('.input-date');
-
+        let firstName= document.querySelector('#first-name').value
+        let fristChild= appending.querySelector('p')
         let dt= new Date(calendar.value);
-
         let dayName= ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
             'Saturday'];
         let i= dt.getDay();
 
-        inputDate.classList.add(dayName[i]);
-        inputDate.classList.add(personSex.value);
-
-        appending.firstElementChild.classList.remove('input-date')
-
-        let dayAndSexMap= {
-            'Monday_Male': 'Kwasi',
-            'Tuesday_Male': 'Kwadwo',
-            'Wednesday_Male': 'Kwabena',
-            'Thursday_Male': 'Kwaku',
-            'Friday_Male': 'Yaw',
-            'Saturday_Male': 'Kofi',
-            'Sunday_Male': 'Kwame',
-            'Monday_Female': 'Akosua',
-            'Tuesday_Female': 'Adwoa',
-            'Wednesday_Female': 'Abenaa',
-            'Thursday_Female': 'Akua',
-            'Friday_Female': 'Yaa',
-            'Saturday_Female': 'Afua',
-            'Sunday_Female': 'Ama'
+        const dayAndSexMap= {
+            'Monday_Male': 'Kwadwo',
+            'Tuesday_Male': 'Kwabena',
+            'Wednesday_Male': 'Kwaku',
+            'Thursday_Male': 'Yaw',
+            'Friday_Male': 'Kofi',
+            'Saturday_Male': 'Kwame',
+            'Sunday_Male': 'Kwasi',
+            'Monday_Female': 'Adwoa',
+            'Tuesday_Female': 'Abenaa',
+            'Wednesday_Female': 'Akua',
+            'Thursday_Female': 'Yaa',
+            'Friday_Female': 'Afua',
+            'Saturday_Female': 'Ama',
+            'Sunday_Female': 'Akosua'
         };
+
+        let dayAndSex= String(dayName[i])+ '_'+ String(personSex.value);
+        let akanSurname= dayAndSexMap[dayAndSex];
+        fristChild.innerText= firstName+ ' '+ akanSurname
     }
 })
