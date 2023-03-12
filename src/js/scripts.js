@@ -8,6 +8,7 @@ let personSex= document.querySelector('#sex');
 submitButton.addEventListener('click', (event) => {
     event.preventDefault();
     let paragraph= document.createElement('p');
+    paragraph.classList.add('appending__content')
     if (!appending.firstElementChild) {
         appending.appendChild(paragraph);
         submitButton.click();

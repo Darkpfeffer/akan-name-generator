@@ -4,6 +4,10 @@ body {
     background-color: #d4af37;
 }
 
+a {
+    color: #d6ac24;
+}
+
 .space {
     color: #613b14;
 }
@@ -19,14 +23,36 @@ body {
     border-bottom: 5px solid rgba(94, 78, 23, 1);
 }
 
+.page-content__second {
+    height: auto;
+}
+
+.page-content__header--content .page-content__content{
+    display: inline;
+    float: left;
+}
+
 .content_image {
+    margin-top: 5px;
     width: 200px;
+    float: right;
 }
 
 #akan_image {
     width: 350px;
+    height: 300px;
 }
 
 .page-content__header {
     font-family: 'Climate Crisis', cursive;
+}
+
+.appending__content {
+    font-size: 20px;
+}
+
+@media all and (min-width: 840px) {
+    .page-content__second {
+        height: 300px;
+    }
 }
