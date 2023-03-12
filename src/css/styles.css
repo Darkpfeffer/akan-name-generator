@@ -1,6 +1,30 @@
 body {
     margin: 5px;
     font-family: 'Lato', sans-serif;
+    background-color: #d4af37;
+}
+
+.space {
+    color: #613b14;
+}
+
+.page-content {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-left: 10px;
+    background-color: #613b14;
+    color: #fff;
+    border-right: 5px solid rgba(94, 78, 23, 1);
+    border-bottom: 5px solid rgba(94, 78, 23, 1);
+}
+
+.content_image {
+    width: 200px;
+}
+
+#akan_image {
+    width: 350px;
 }
 
 .page-content__header {
