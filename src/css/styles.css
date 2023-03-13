@@ -1,6 +1,17 @@
 header {
+    display: flex;
     margin: 0px;
     border-bottom: 3px solid rgba(0, 0, 0, 1);
+}
+
+.page-header__content {
+    align-self: center;
+}
+
+#akan_face {
+    width: 75px;
+    justify-content: right;
+    margin-left: auto;
 }
 
 body {
