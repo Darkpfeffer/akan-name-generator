@@ -1,3 +1,8 @@
+header {
+    margin: 0px;
+    border-bottom: 3px solid rgba(0, 0, 0, 1);
+}
+
 body {
     margin: 5px;
     font-family: 'Lato', sans-serif;
@@ -6,6 +11,10 @@ body {
 
 a {
     color: #d6ac24;
+}
+
+.header-space {
+    color: #d4af37;
 }
 
 .space {
@@ -23,10 +32,6 @@ a {
     border-bottom: 5px solid rgba(94, 78, 23, 1);
 }
 
-.page-content__second {
-    height: auto;
-}
-
 .page-content__header--content .page-content__content{
     display: inline;
     float: left;
@@ -36,6 +41,7 @@ a {
     margin-top: 5px;
     width: 200px;
     float: right;
+    margin-right: 10px;
 }
 
 #akan_image {
@@ -49,6 +55,12 @@ a {
 
 .appending__content {
     font-size: 20px;
+}
+
+@media all and (min-width: 1216px) {
+    .page-content__first {
+        height: 400px;
+    }
 }
 
 @media all and (min-width: 840px) {
