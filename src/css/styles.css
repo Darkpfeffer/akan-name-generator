@@ -116,8 +116,20 @@ a {
         font-size: 14px;
     }
 
+    h4 {
+        font-size: 12px;
+    }
+
+    p, a, button {
+        font-size: 13px;
+    }
+
     #akan_face {
         width: 60px;
+    }
+
+    #akan_woman {
+        width: 150px;
     }
 }
 
@@ -139,11 +151,34 @@ a {
     h3 {
         font-size: 10px;
     }
+
+    h4 {
+        font-size: 9px;
+    }
+
+    p, a , button{
+        font-size: 10px;
+    }
+
+    #akan_woman {
+        width: 125px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #akan_image {
+        width: 210px;
+        height: 180px;
+    }
 }
 
 @media all and (max-width: 485px) {
     h1 {
         font-size: 15px;
+    }
+
+    h4 {
+        font-size: 8px;
     }
 
     #akan_face {
@@ -162,11 +197,31 @@ a {
     h3 {
         font-size: 7px;
     }
+
+    h4 {
+        font-size: 6px;
+    }
+
+    p, a, button {
+        font-size: 7px;
+    }
+
+    #akan_woman {
+        width: 75px;
+    }
 }
 
 @media all and (max-width: 370px) {
     h1 {
         font-size: 13px;
+    }
+
+    h4 {
+        font-size: 5px;
+    }
+
+    p, a, button {
+        font-size: 5px;
     }
 }
 
@@ -174,6 +229,10 @@ a {
     #akan_image {
         width: 140px;
         height: 120px;
+    }
+
+    #akan_woman {
+        width: 50px;
     }
 }
 
@@ -190,6 +249,10 @@ a {
 @media all and (max-width: 300px) {
     h3 {
         font-size: 5px;
+    }
+
+    h4 {
+        font-size: 4px;
     }
 
     #akan_image {
@@ -217,6 +280,10 @@ a {
     h3 {
         font-size: 4px;
     }
+
+    p, a {
+        font-size: 4px;
+    }
 }
 
 @media all and (max-width: 211px) {
@@ -239,11 +306,23 @@ a {
         width: 42px;
         height: 36px;
     }
+
+    #akan_woman {
+        width: 35px;
+    }
 }
 
 @media all and (max-width: 180px) {
     h3 {
         font-size: 3px;
+    }
+
+    h4 {
+        font-size: 3px;
+    }
+
+    #akan_woman {
+        width: 25px;
     }
 }
 
