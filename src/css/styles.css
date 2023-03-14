@@ -151,6 +151,13 @@ a {
     }
 }
 
+@media all and (max-width: 435px) {
+    #akan_image {
+        width: 175px;
+        height: 150px;
+    }
+}
+
 @media all and (max-width: 410px) {
     h3 {
         font-size: 7px;
@@ -160,6 +167,13 @@ a {
 @media all and (max-width: 370px) {
     h1 {
         font-size: 13px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    #akan_image {
+        width: 140px;
+        height: 120px;
     }
 }
 
@@ -177,6 +191,11 @@ a {
     h3 {
         font-size: 5px;
     }
+
+    #akan_image {
+        width: 105px;
+        height: 90px;
+    }
 }
 
 @media all and (max-width: 260px) {
@@ -186,6 +205,11 @@ a {
 
     #akan_face {
         width: 20px;
+    }
+
+    #akan_image {
+        width: 70px;
+        height: 60px;
     }
 }
 
@@ -202,6 +226,18 @@ a {
 
     #akan_face {
         width: 15px;
+    }
+
+    #akan_image {
+        width: 56px;
+        height: 48px;
+    }
+}
+
+@media all and (max-width: 190px) {
+    #akan_image {
+        width: 42px;
+        height: 36px;
     }
 }
 
