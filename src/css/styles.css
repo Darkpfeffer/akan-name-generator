@@ -1,7 +1,6 @@
 header {
     display: flex;
-    margin: 0px;
-    border-bottom: 3px solid rgba(0, 0, 0, 1);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.6);
 }
 
 .page-header__content {
@@ -10,6 +9,7 @@ header {
 
 #akan_face {
     width: 75px;
+    margin-bottom: 5px;
     justify-content: right;
     margin-left: auto;
 }
@@ -40,9 +40,15 @@ a {
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
     padding-left: 10px;
+    padding-right: 10px;
     background-color: #613b14;
     color: #fff;
+    border-radius: 8px;
+    border-top: 2px solid rgba(94, 78, 23, 1);
+    border-left: 1px solid rgba(94, 78, 23, 1);
     border-right: 5px solid rgba(94, 78, 23, 1);
     border-bottom: 5px solid rgba(94, 78, 23, 1);
 }
@@ -58,7 +64,6 @@ a {
     width: 350px;
     height: 300px;
     float: left;
-
 }
 
 .page-content__header {
@@ -81,6 +86,7 @@ a {
     font-size: 20px;
 }
 
+/* media queries (min width)*/
 @media all and (min-width: 1216px) {
     .page-content__first {
         height: 400px;
@@ -90,5 +96,123 @@ a {
 @media all and (min-width: 840px) {
     .page-content__second {
         height: 300px;
+    }
+}
+
+/* media queries (max width)*/
+@media all and (max-width: 840px) {
+    #akan_image {
+        height: 210px;
+        width: 245px;
+    }
+}
+
+@media all and (max-width: 755px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    #akan_face {
+        width: 60px;
+    }
+}
+
+@media all and (max-width: 700px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    #akan_face {
+        width: 50px;
+    }
+}
+
+@media all and (max-width: 590px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 485px) {
+    h1 {
+        font-size: 15px;
+    }
+
+    #akan_face {
+        width: 35px;
+    }
+}
+
+@media all and (max-width: 410px) {
+    h3 {
+        font-size: 7px;
+    }
+}
+
+@media all and (max-width: 370px) {
+    h1 {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 330px) {
+    h1 {
+        font-size: 10px;
+    }
+
+    #akan_face {
+        width: 25px;
+    }
+}
+
+@media all and (max-width: 300px) {
+    h3 {
+        font-size: 5px;
+    }
+}
+
+@media all and (max-width: 260px) {
+    h1 {
+        font-size: 8px;
+    }
+
+    #akan_face {
+        width: 20px;
+    }
+}
+
+@media all and (max-width: 220px) {
+    h3 {
+        font-size: 4px;
+    }
+}
+
+@media all and (max-width: 211px) {
+    h1 {
+        font-size: 6px;
+    }
+
+    #akan_face {
+        width: 15px;
+    }
+}
+
+@media all and (max-width: 180px) {
+    h3 {
+        font-size: 3px;
+    }
+}
+
+@media all and (max-width: 165px) {
+    h1 {
+        font-size: 5px;
     }
 }
