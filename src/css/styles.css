@@ -22,6 +22,10 @@ body {
 
 a {
     color: #d6ac24;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .header-space {
@@ -54,10 +58,23 @@ a {
     width: 350px;
     height: 300px;
     float: left;
+
 }
 
 .page-content__header {
     font-family: 'Climate Crisis', cursive;
+}
+
+
+
+.page-content__content--first {
+    display: flex;
+    justify-content: end;
+    clear: right;
+}
+
+#link {
+    display: inline;
 }
 
 .appending__content {
