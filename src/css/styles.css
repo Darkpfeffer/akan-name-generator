@@ -28,6 +28,10 @@ a {
     margin-right: 5px;
 }
 
+.mobile {
+    display: none;
+}
+
 .header-space {
     color: #d4af37;
 }
@@ -84,6 +88,7 @@ a {
 
 .appending__content {
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 /* media queries (min width)*/
@@ -95,7 +100,7 @@ a {
 
 @media all and (min-width: 840px) {
     .page-content__second {
-        height: 300px;
+        height: 375px;
     }
 }
 
@@ -104,6 +109,10 @@ a {
     #akan_image {
         height: 210px;
         width: 245px;
+    }
+
+    .page-content__second {
+        height: 375px;
     }
 }
 
@@ -124,6 +133,10 @@ a {
         font-size: 13px;
     }
 
+    .page-content__second {
+        height: 285px;
+    }
+
     #akan_face {
         width: 60px;
     }
@@ -141,48 +154,49 @@ a {
     #akan_face {
         width: 50px;
     }
+
+    .page-content__second {
+        height: 300px;
+    }
 }
 
 @media all and (max-width: 590px) {
-    h1 {
-        font-size: 20px;
+    .page-content {
+        width: 94%;
+        margin-left: 1%;
+        margin-right: 5%;
     }
 
-    h3 {
-        font-size: 10px;
+    .page-content__second {
+        height: auto;
     }
 
-    h4 {
-        font-size: 9px;
-    }
-
-    p, a , button{
-        font-size: 10px;
+    .page-content__header {
+        text-align: center;
     }
 
     #akan_woman {
+        float: none;
+        display: inline-block;
         width: 125px;
     }
-}
 
-@media all and (max-width: 500px) {
     #akan_image {
-        width: 210px;
-        height: 180px;
-    }
-}
-
-@media all and (max-width: 485px) {
-    h1 {
-        font-size: 15px;
-    }
-
-    h4 {
-        font-size: 8px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 210px;
+        width: 245px;
     }
 
-    #akan_face {
-        width: 35px;
+    .mobile {
+        display: block;
+    }
+
+    #submit-button {
+        margin-bottom: 10px;
     }
 }
 
@@ -194,20 +208,12 @@ a {
 }
 
 @media all and (max-width: 410px) {
-    h3 {
-        font-size: 7px;
-    }
-
-    h4 {
-        font-size: 6px;
-    }
-
-    p, a, button {
-        font-size: 7px;
-    }
-
     #akan_woman {
         width: 75px;
+    }
+
+    .page-content__content--second {
+        display: block;
     }
 }
 
