@@ -20,6 +20,14 @@ body {
     background-color: #d4af37;
 }
 
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
 a {
     color: #d6ac24;
     display: flex;
@@ -66,11 +74,10 @@ a {
 
 #akan_image {
     width: 350px;
-    height: 300px;
     float: left;
 }
 
-.page-content__header {
+h1 {
     font-family: 'Climate Crisis', cursive;
 }
 
@@ -107,7 +114,6 @@ a {
 /* media queries (max width)*/
 @media all and (max-width: 840px) {
     #akan_image {
-        height: 210px;
         width: 245px;
     }
 
@@ -121,24 +127,12 @@ a {
         font-size: 30px;
     }
 
-    h3 {
-        font-size: 14px;
-    }
-
-    h4 {
-        font-size: 12px;
-    }
-
-    p, a, button {
-        font-size: 16px;
-    }
-
     .appending__content {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .page-content__second {
-        height: 285px;
+        height: 375px;
     }
 
     #akan_face {
@@ -157,10 +151,18 @@ a {
 
     #akan_face {
         width: 50px;
+    } 
+
+    p, a, button {
+        font-size: 15px;
     }
 
-    .page-content__second {
-        height: 300px;
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 18px;
     }
 }
 
@@ -175,8 +177,16 @@ a {
         height: auto;
     }
 
-    .page-content__header {
+    h3, h4 {
         text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 17px;
     }
 
     #akan_image, #akan_woman {
@@ -188,7 +198,6 @@ a {
     }
 
     #akan_image {
-        height: 210px;
         width: 245px;
     }
 
@@ -211,6 +220,10 @@ a {
     h1 {
         font-size: 20px;
     }
+
+    a {
+        font-size: 10px;
+    }
 }
 
 @media all and (max-width: 300px) {
@@ -223,15 +236,15 @@ a {
     }
 
     h3 {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     h4 {
-        font-size: 9px;
+        font-size: 13px;
     }
 
-    p, a, button {
-        font-size: 11px;
+    p, button {
+        font-size: 12px;
     }
 
     .appending__content {
@@ -240,7 +253,6 @@ a {
 
     #akan_image {
         width: 182px;
-        height: 156px;
     }
 }
 
@@ -249,7 +261,7 @@ a {
         font-size: 13px;
     }
 
-    p, a, button {
+    p, button {
         font-size: 10px;
     }
 
@@ -260,16 +272,15 @@ a {
 
 @media all and (max-width: 220px) {
     h3 {
-        font-size: 9px;
+        font-size: 13px;
     }
 
     h4 {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     #akan_image {
         width: 140px;
-        height: 120px;
     }
 
     a {
@@ -283,11 +294,11 @@ a {
     }
 
     h3 {
-        font-size: 8px;
+        font-size: 11px;
     }
 
     h4 {
-        font-size: 7px;
+        font-size: 10px;
     }
 }
 
@@ -315,16 +326,15 @@ a {
     }
     
     h3 {
-        font-size: 7px;
+        font-size: 10px;
     }
 
     h4 {
-        font-size: 6px;
+        font-size: 9px;
     }
 
     #akan_image {
         width: 112px;
-        height: 96px;
     }
 
     a {
@@ -338,7 +348,7 @@ a {
     }
 
     h3 {
-        font-size: 6px;
+        font-size: 9px;
     }
 
     p, button {
