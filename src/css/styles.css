@@ -169,8 +169,8 @@ h1 {
 @media all and (max-width: 590px) {
     .page-content {
         width: 94%;
-        margin-left: 1%;
-        margin-right: 5%;
+        margin-left: 0px;
+        margin-right: 6%;
     }
 
     .page-content__second {
