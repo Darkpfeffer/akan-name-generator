@@ -133,6 +133,10 @@ a {
         font-size: 13px;
     }
 
+    .appending__content {
+        font-size: 15px;
+    }
+
     .page-content__second {
         height: 285px;
     }
@@ -175,20 +179,23 @@ a {
         text-align: center;
     }
 
-    #akan_woman {
-        float: none;
-        display: inline-block;
-        width: 125px;
-    }
-
-    #akan_image {
+    #akan_image, #akan_woman {
         float: none;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
+    }
+
+    #akan_image {
         height: 210px;
         width: 245px;
+    }
+
+    #akan_woman {
+        float: none;
+        display: block;
+        width: 125px;
     }
 
     .mobile {
@@ -200,140 +207,145 @@ a {
     }
 }
 
-@media all and (max-width: 435px) {
-    #akan_image {
-        width: 175px;
-        height: 150px;
-    }
-}
-
-@media all and (max-width: 410px) {
-    #akan_woman {
-        width: 75px;
-    }
-
-    .page-content__content--second {
-        display: block;
-    }
-}
-
-@media all and (max-width: 370px) {
+@media all and (max-width: 351px) {
     h1 {
-        font-size: 13px;
-    }
-
-    h4 {
-        font-size: 5px;
-    }
-
-    p, a, button {
-        font-size: 5px;
-    }
-}
-
-@media all and (max-width: 350px) {
-    #akan_image {
-        width: 140px;
-        height: 120px;
-    }
-
-    #akan_woman {
-        width: 50px;
-    }
-}
-
-@media all and (max-width: 330px) {
-    h1 {
-        font-size: 10px;
-    }
-
-    #akan_face {
-        width: 25px;
+        font-size: 20px;
     }
 }
 
 @media all and (max-width: 300px) {
-    h3 {
-        font-size: 5px;
-    }
-
-    h4 {
-        font-size: 4px;
-    }
-
-    #akan_image {
-        width: 105px;
-        height: 90px;
-    }
-}
-
-@media all and (max-width: 260px) {
     h1 {
-        font-size: 8px;
+        font-size: 16px;
     }
 
     #akan_face {
-        width: 20px;
+        width: 30px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    h4 {
+        font-size: 9px;
+    }
+
+    p, a, button {
+        font-size: 11px;
+    }
+
+    .appending__content {
+        font-size: 13px;
     }
 
     #akan_image {
-        width: 70px;
-        height: 60px;
+        width: 182px;
+        height: 156px;
+    }
+}
+
+@media all and (max-width: 235px) {
+    h1 {
+        font-size: 13px;
+    }
+
+    p, a, button {
+        font-size: 10px;
+    }
+
+    .appending__content {
+        font-size: 12px;
     }
 }
 
 @media all and (max-width: 220px) {
     h3 {
-        font-size: 4px;
+        font-size: 9px;
     }
 
-    p, a {
-        font-size: 4px;
-    }
-}
-
-@media all and (max-width: 211px) {
-    h1 {
-        font-size: 6px;
-    }
-
-    #akan_face {
-        width: 15px;
+    h4 {
+        font-size: 8px;
     }
 
     #akan_image {
-        width: 56px;
-        height: 48px;
+        width: 140px;
+        height: 120px;
+    }
+
+    a {
+        font-size: 8px;
+    }
+}
+
+@media all and (max-width: 200px) {
+    h1 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 8px;
+    }
+
+    h4 {
+        font-size: 7px;
     }
 }
 
 @media all and (max-width: 190px) {
-    #akan_image {
-        width: 42px;
-        height: 36px;
+    h1 {
+        font-size: 11px;
+    }
+
+    #akan_face {
+        width: 25px;
     }
 
     #akan_woman {
-        width: 35px;
+        width: 100px;
     }
 }
 
 @media all and (max-width: 180px) {
+    h1 {
+        font-size: 10px;
+    }
+
+    #akan_face {
+        width: 23px;
+    }
+    
     h3 {
-        font-size: 3px;
+        font-size: 7px;
     }
 
     h4 {
-        font-size: 3px;
+        font-size: 6px;
     }
 
-    #akan_woman {
-        width: 25px;
+    #akan_image {
+        width: 112px;
+        height: 96px;
     }
-}
+
+    a {
+        font-size: 6px;
+    }
+} 
 
 @media all and (max-width: 165px) {
     h1 {
-        font-size: 5px;
+        font-size: 9px;
+    }
+
+    h3 {
+        font-size: 6px;
+    }
+
+    p, button {
+        font-size: 9px;
+    }
+
+    .appending__content {
+        font-size: 11px;
     }
 }
