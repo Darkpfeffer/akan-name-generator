@@ -231,6 +231,10 @@ h1 {
         font-size: 16px;
     }
 
+    header {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+    }
+
     #akan_face {
         width: 30px;
     }
@@ -357,5 +361,65 @@ h1 {
 
     .appending__content {
         font-size: 11px;
+    }
+}
+
+@media all and (max-width: 131px) {
+    h1 {
+        font-size: 8px;
+    }
+}
+
+@media all and (max-width: 120px) {
+    header {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    }
+    
+    h1 {
+        font-size: 7px;
+    }
+
+    #akan_face {
+        width: 18px;
+    }
+}
+
+@media all and (max-width: 104px) {
+    h1 {
+        font-size: 6px;
+    }
+
+    #akan_face {
+        width: 16px;
+    }
+}
+
+@media all and (max-width: 91px) {
+    h1 {
+        font-size: 5px;
+    }
+
+    #akan_face {
+        width: 14px;
+    }
+}
+
+@media all and (max-width: 78px) {
+    h1 {
+        font-size: 4px;
+    }
+
+    #akan_face {
+        width: 12px;
+    }
+}
+
+@media all and (max-width: 65px) {
+    h1 {
+        font-size: 3px;
+    }
+
+    #akan_face {
+        width: 8px;
     }
 }
