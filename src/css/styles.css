@@ -103,7 +103,7 @@ h1 {
 /* media queries (min width)*/
 @media all and (min-width: 1216px) {
     .page-content__first {
-        height: 400px;
+        height: 435px;
     }
 }
 
