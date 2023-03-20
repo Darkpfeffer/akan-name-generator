@@ -4,18 +4,20 @@ header {
 }
 
 .page-header__content {
+    margin-left: 5px;
     align-self: center;
 }
 
 #akan_face {
     width: 75px;
+    margin-right: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     justify-content: right;
     margin-left: auto;
 }
 
 body {
-    margin: 5px;
     font-family: 'Lato', sans-serif;
     background-color: #d4af37;
 }
@@ -168,9 +170,11 @@ h1 {
 
 @media all and (max-width: 590px) {
     .page-content {
-        width: 94%;
-        margin-left: 0px;
-        margin-right: 6%;
+        width: 90%;
+        margin-left: 1%;
+        margin-right: 9%;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
     .page-content__second {
@@ -233,6 +237,12 @@ h1 {
 
     header {
         border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+    }
+
+    .page-content {
+        border-right: 3px solid rgba(94, 78, 23, 1);
+        border-top: 1px solid rgba(94, 78, 23, 1);
+        border-bottom: 3px solid rgba(94, 78, 23, 1);
     }
 
     #akan_face {
@@ -362,11 +372,34 @@ h1 {
     .appending__content {
         font-size: 11px;
     }
+
+    .page-content {
+        border-right: 2px solid rgba(94, 78, 23, 1);
+        border-bottom: 2px solid rgba(94, 78, 23, 1);
+    }
 }
 
 @media all and (max-width: 131px) {
     h1 {
         font-size: 8px;
+    }
+}
+
+@media all and (max-width: 125px) {
+    #akan_image {
+        width: 98px;
+    }
+
+    p, button {
+        font-size: 8px;
+    }
+
+    .appending__content {
+        font-size: 10px;
+    }
+
+    a {
+        font-size: 5px;
     }
 }
 
@@ -379,8 +412,36 @@ h1 {
         font-size: 7px;
     }
 
+    h3 {
+        font-size: 8px;
+    }
+
     #akan_face {
         width: 18px;
+    }
+}
+
+@media all and (max-width: 110px) {
+    p, button {
+        font-size: 7px;
+    }
+
+    .appending__content {
+        font-size: 9px;
+    }
+
+    #akan_woman {
+        width: 80px;
+    }
+}
+
+@media all and (max-width: 107px) {
+    h3 {
+        font-size: 7px;
+    }
+
+    #akan_image {
+        width: 84px;
     }
 }
 
@@ -392,6 +453,26 @@ h1 {
     #akan_face {
         width: 16px;
     }
+
+    a {
+        font-size: 4px;
+    }
+}
+
+@media all and (max-width: 101px) {
+    h4 {
+        font-size: 8px;
+    }
+}
+
+@media all and (max-width: 96px) {
+    p, button {
+        font-size: 6px;
+    }
+
+    .appending__content {
+        font-size: 8px;
+    }
 }
 
 @media all and (max-width: 91px) {
@@ -399,8 +480,34 @@ h1 {
         font-size: 5px;
     }
 
+    h4 {
+        font-size: 7px;
+    }
+
     #akan_face {
         width: 14px;
+    }
+
+    #akan_image {
+        width: 70px;
+    }
+
+    #akan_woman {
+        width: 60px;
+    }
+}
+
+@media all and (max-width: 83px) {
+    p, button {
+        font-size: 5px;
+    }
+
+    .appending__content {
+        font-size: 7px;
+    }
+
+    a {
+        font-size: 3px;
     }
 }
 
@@ -409,8 +516,39 @@ h1 {
         font-size: 4px;
     }
 
+    h4 {
+        font-size: 6px;
+    }
+
     #akan_face {
         width: 12px;
+    }
+
+    .page-content {
+        padding: 2px;
+    }
+
+    #akan_image {
+        width: 56px;
+    }
+}
+
+@media all and (max-width: 70px) {
+
+    h4 {
+        font-size: 5px;
+    }
+    
+    p, button {
+        font-size: 4px;
+    }
+
+    .appending__content {
+        font-size: 6px;
+    }
+
+    #akan_woman {
+        width: 40px;
     }
 }
 
@@ -419,7 +557,41 @@ h1 {
         font-size: 3px;
     }
 
+    h3 {
+        font-size: 6px;
+    }
+
     #akan_face {
         width: 8px;
+    }
+
+    #akan_image {
+        width: 42px;
+    }
+
+    a {
+        font-size: 2px;
+    }
+}
+
+@media all and (max-width: 56px) {
+    h3 {
+        font-size: 5px;
+    }
+
+    h4 {
+        font-size: 4px;
+    }
+
+    p, button {
+        font-size: 3px;
+    }
+
+    .appending__content {
+        font-size: 5px;
+    }
+
+    #first-name {
+        width: 35px;
     }
 }
