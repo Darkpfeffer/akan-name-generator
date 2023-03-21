@@ -87,7 +87,6 @@ h1 {
 
 .page-content__content--first {
     display: flex;
-    justify-content: end;
     clear: right;
 }
 
@@ -131,10 +130,6 @@ h1 {
 
     .appending__content {
         font-size: 18px;
-    }
-
-    .page-content__second {
-        height: 375px;
     }
 
     #akan_face {
